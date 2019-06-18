@@ -1,0 +1,19 @@
+﻿<Window x:Name="wykladowe" x:Class="RoomsFinderWsiiz.Wykladowe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoomsFinderWsiiz"
+        mc:Ignorable="d"
+        Title="Wykladowe" Height="768" Width="1024" WindowState="Maximized" WindowStyle="None">
+    <Grid x:Name="kolor" Background="Black">
+        <MediaElement x:Name="filmw" HorizontalAlignment="Center" Height="583" Margin="2,2,1,178" VerticalAlignment="Center" Width="1016" UnloadedBehavior="Manual" LoadedBehavior="Manual"/>
+        <Button x:Name="RA3" Content="RA3" HorizontalAlignment="Left" Height="35" Margin="449,656,0,0" VerticalAlignment="Top" Width="71" Click="RA3_Click"/>
+        <Button x:Name="back" Content="" HorizontalAlignment="Left" Height="140" Margin="10,610,0,0" VerticalAlignment="Center" Width="153" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Pliki/projekt/back-arrow.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
