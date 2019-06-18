@@ -13,12 +13,23 @@
         </LinearGradientBrush>
     </Window.Background>
     <Grid x:Name="kolor" Background="Black">
+        <Label x:Name="text" Content="WYBIERZ&#xD;&#xA;ODPOWIEDNIA SALE" HorizontalAlignment="Center" Height="166" Margin="486,192,131,405" VerticalAlignment="Center" Width="402" Foreground="#FFEB4444" FontFamily="Segoe UI Black" FontSize="36"/>
+        <Border x:Name="foto" BorderThickness="1" HorizontalAlignment="Center" Height="218" Margin="176,157,557,388" VerticalAlignment="Center" Width="286">
+            <Border.Background>
+                <ImageBrush ImageSource="Pliki/projekt/pendrive (1).png"/>
+            </Border.Background>
+        </Border>
         <MediaElement x:Name="filmk" HorizontalAlignment="Center" Height="537" Margin="10,10,10,216" VerticalAlignment="Center" Width="999" UnloadedBehavior="Manual" LoadedBehavior="Manual"/>
-        <Button x:Name="ra114" Content="114" HorizontalAlignment="Left" Height="40" Margin="558,607,0,0" VerticalAlignment="Top" Width="64" Click="Ra114_Click"/>
+        <Button x:Name="ra114" Content="RA114" HorizontalAlignment="Left" Height="40" Margin="330,600,0,0" VerticalAlignment="Top" Width="101" Click="Ra114_Click" FontFamily="Segoe UI Black" FontSize="24"/>
         <Button Content="" HorizontalAlignment="Left" Height="140" Margin="10,587,0,0" VerticalAlignment="Top" Width="153" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Pliki/projekt/back-arrow.png"/>
             </Button.Background>
         </Button>
+        <Button x:Name="ra117" Content="RA117" HorizontalAlignment="Left" Height="40" Margin="459,600,0,0" VerticalAlignment="Top" Width="101" FontFamily="Segoe UI Black" FontSize="24" Click="Ra117_Click"/>
+        <Button x:Name="ra121" Content="RA121" HorizontalAlignment="Left" Height="40" Margin="589,600,0,0" VerticalAlignment="Top" Width="101" FontFamily="Segoe UI Black" FontSize="24" Click="Ra121_Click"/>
+        <Button x:Name="ra236" Content="RA236" HorizontalAlignment="Left" Height="40" Margin="589,670,0,0" VerticalAlignment="Top" Width="101" FontFamily="Segoe UI Black" FontSize="24" Click="Ra236_Click"/>
+        <Button x:Name="ra145" Content="RA145" HorizontalAlignment="Left" Height="40" Margin="330,670,0,0" VerticalAlignment="Top" Width="101" FontFamily="Segoe UI Black" FontSize="24" Click="Ra145_Click"/>
+        <Button x:Name="ra250" Content="RA250" HorizontalAlignment="Left" Height="40" Margin="459,670,0,0" VerticalAlignment="Top" Width="101" FontFamily="Segoe UI Black" FontSize="24" Click="Ra250_Click"/>
     </Grid>
 </Window>

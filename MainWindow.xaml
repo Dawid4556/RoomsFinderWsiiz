@@ -45,7 +45,7 @@
             <Button x:Name="cwi" Content="Sale Cwieczeniowe" HorizontalAlignment="Center" Margin="318,672,565,145" VerticalAlignment="Center" Width="180" Height="50" RenderTransformOrigin="1.018,0.591" FontFamily="Segoe UI Black" FontSize="16" Click="Cwi_Click"/>
             <Button x:Name="wyk" Content="Sale Wykladowe" HorizontalAlignment="Center" Margin="602,672,281,145" VerticalAlignment="Center" Width="180" Height="50" FontFamily="Segoe UI Black" FontSize="16" Click="Wyk_Click"/>
             <Button x:Name="dzie" Content="Dziekanat/Samorzad" HorizontalAlignment="Center" Margin="853,672,30,145" VerticalAlignment="Center" Width="180" Height="50" FontFamily="Segoe UI Black" FontSize="16" RenderTransformOrigin="0.492,0.006" Click="Dzie_Click"/>
-            <Label Content="SZUKASZ SALI?&#xA;WYBIERZ ODPOWIEDN PRZYCISK" HorizontalAlignment="Center" Height="155" Margin="340,133,-111,579" VerticalAlignment="Center" Width="834" Background="Black" Foreground="#FFEB4444" FontSize="36" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+            <Label x:Name="tekst" Content="SZUKASZ SALI?&#xA;WYBIERZ ODPOWIEDNI PRZYCISK" HorizontalAlignment="Center" Height="155" Margin="340,133,-111,579" VerticalAlignment="Center" Width="834" Background="Black" Foreground="#FFEB4444" FontSize="36" FontFamily="Segoe UI Black" FontWeight="Bold"/>
             <Button x:Name="exit" Content="" Margin="901,104,138,739" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Exit_Click" RenderTransformOrigin="-1.105,0.727">
                 <Button.Background>
                     <ImageBrush ImageSource="Pliki/projekt/power (1).png"/>

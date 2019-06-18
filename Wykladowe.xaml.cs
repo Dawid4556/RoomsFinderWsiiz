@@ -34,5 +34,41 @@ namespace RoomsFinderWsiiz
         {
             this.Close();
         }
+
+        private void RA43_Click(object sender, RoutedEventArgs e)
+        {
+            filmw.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\43.mp4");
+            filmw.Play();
+        }
+
+        private void RA53_Click(object sender, RoutedEventArgs e)
+        {
+            filmw.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\53.MP4");
+            filmw.Play();
+        }
+
+        private void RA101_Click(object sender, RoutedEventArgs e)
+        {
+            filmw.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\101.MP4");
+            filmw.Play();
+        }
+
+        private void RA104_Click(object sender, RoutedEventArgs e)
+        {
+            filmw.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\104.MP4");
+            filmw.Play();
+        }
+
+        private void RA239_Click(object sender, RoutedEventArgs e)
+        {
+            filmw.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\239.MP4");
+            filmw.Play();
+        }
+
+        private void RA132_Click(object sender, RoutedEventArgs e)
+        {
+            filmw.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\132.MP4");
+            filmw.Play();
+        }
     }
 }

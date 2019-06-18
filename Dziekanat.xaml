@@ -13,22 +13,22 @@
                 <GradientStop Color="Black" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
+        <Border x:Name="foto" BorderThickness="1" HorizontalAlignment="Center" Height="218" Margin="229,157,666,415.5" VerticalAlignment="Center" Width="285">
+            <Border.Background>
+                <ImageBrush ImageSource="Pliki/projekt/teamwork.png"/>
+            </Border.Background>
+        </Border>
+
+        <Label x:Name="text" Content="WYBIERZ&#xA;ODPOWIEDNIA SALE" HorizontalAlignment="Center" Height="166" Margin="542,183,235,441.5" VerticalAlignment="Center" Width="403" Foreground="#FFEB4444" FontFamily="Segoe UI Black" FontSize="36"/>
+
         <MediaElement x:Name="filmd" HorizontalAlignment="Center" Height="573" Margin="0,15,10,202.5" VerticalAlignment="Center" Width="1170" LoadedBehavior="Manual" UnloadedBehavior="Manual"/>
-        <Button x:Name="back" Content="" HorizontalAlignment="Left" Height="140" Margin="10,593,0,0" VerticalAlignment="Top" Width="153" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Back_Click">
+        <Button x:Name="back" Content="" HorizontalAlignment="Left" Height="140" Margin="10,621,0,0" VerticalAlignment="Top" Width="153" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Back_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Pliki/projekt/back-arrow.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="dziekanat" Content="Dziekanat" HorizontalAlignment="Left" Height="145" Margin="370,593,0,0" VerticalAlignment="Top" Width="176" Click="Dziekanat_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="Pliki/projekt/id-card.png"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="samorzad" Content="Button" HorizontalAlignment="Left" Height="124" Margin="745,614,0,0" VerticalAlignment="Top" Width="191" Click="Samorzad_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="Pliki/projekt/teamwork.png"/>
-            </Button.Background>
-        </Button>
+        <Button x:Name="dziekanat" Content="Dziekanat" HorizontalAlignment="Left" Height="56" Margin="446,650,0,0" VerticalAlignment="Top" Width="158" Click="Dziekanat_Click" Background="White" FontFamily="Segoe UI Black" FontSize="20"/>
+        <Button x:Name="samorzad" Content="Samorzad" HorizontalAlignment="Left" Height="57" Margin="696,649,0,0" VerticalAlignment="Top" Width="160" Click="Samorzad_Click" Background="White" FontFamily="Segoe UI Black" FontSize="18"/>
 
     </Grid>
 </Window>

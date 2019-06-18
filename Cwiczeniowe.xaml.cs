@@ -35,5 +35,66 @@ namespace RoomsFinderWsiiz
         {
             this.Close();
         }
+
+        private void Ra20_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\20.MP4");
+            filmc.Play();
+
+        }
+
+        private void Ra44_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\44.MP4");
+            filmc.Play();
+        }
+
+        private void Ra110_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\110.MP4");
+            filmc.Play();
+        }
+
+        private void Ra120_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\12120.MP4");
+            filmc.Play();
+        }
+
+        private void Ra129_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\129.MP4");
+            filmc.Play();
+        }
+
+        private void Ra130_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\130.MP4");
+            filmc.Play();
+        }
+
+        private void Ra142_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\142.MP4");
+            filmc.Play();
+        }
+
+        private void Ra206_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\206.MP4");
+            filmc.Play();
+        }
+
+        private void Ra305_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\305.MP4");
+            filmc.Play();
+        }
+
+        private void Ra212_Click(object sender, RoutedEventArgs e)
+        {
+            filmc.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\212.MP4");
+            filmc.Play();
+        }
     }
 }
