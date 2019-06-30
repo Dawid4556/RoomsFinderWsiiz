@@ -162,5 +162,11 @@
     <Resource Include="Pliki\projekt\teamwork.png" />
     <Resource Include="Pliki\projekt\tlo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestyJednostkowe\TestyJednostkowe.csproj">
+      <Project>{3f2d32cf-9d23-4ea9-9526-d5fae282ad09}</Project>
+      <Name>TestyJednostkowe</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

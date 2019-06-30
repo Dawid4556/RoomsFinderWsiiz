@@ -37,7 +37,7 @@ namespace RoomsFinderWsiiz
             komputerowe komputerowe= new komputerowe();
             komputerowe.Show();
         }
-
+         
         private void Cwi_Click(object sender, RoutedEventArgs e)
         {
             Cwiczeniowe cwiczeniowe = new Cwiczeniowe();
