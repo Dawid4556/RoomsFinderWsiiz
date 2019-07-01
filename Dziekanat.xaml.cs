@@ -27,18 +27,32 @@ namespace RoomsFinderWsiiz
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+            /// <summary>
+            /// Przycisk dla wstecz
+            /// funkcja zamyka aktualne okno co umozliwia powrot do wczesniejszego okna 
+            /// </summary>
         }
 
         private void Dziekanat_Click(object sender, RoutedEventArgs e)
         {
             filmd.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\Dz.MP4");
             filmd.Play();
+            /// <summary>
+            /// Przycisk dla Dzienakantu
+            /// funkcja wywołuje Media Element i wyświetla przypisany film 
+            /// </summary>
+
         }
 
         private void Samorzad_Click(object sender, RoutedEventArgs e)
         {
             filmd.Source = new Uri(@"C:\Users\Dawid\source\repos\RoomsFinderWsiiz\Pliki\projekt\sale\SA.MP4");
             filmd.Play();
+            /// <summary>
+            /// Przycisk dla pokoju samorządu studenckiego
+            /// funkcja wywołuje Media Element i wyświetla przypisany film 
+            /// </summary>
+
         }
     }
 }
